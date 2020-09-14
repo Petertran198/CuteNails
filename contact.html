@@ -23,12 +23,6 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- FONTS -->
-
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Montserrat:100,300,400,400italic,500,700,700italic'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Cormorant+Garamond:100,300,400,400italic,500,700,700italic'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/rcss?family=Roboto:100,300,400,400italic,500,700,700italic'>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- Bootstrap-->
@@ -112,6 +106,7 @@
                                         <div class="column mcb-column five-sixth column_column">
                                             <div class="column_attr clearfix">
                                                 <h2>Address</h2>
+                                                <p>3707 80th Street Kenosha WI 53142</p>
                                                 <br>
                                                 <h3>Happy Nails</h3>
                                                 <p>
@@ -263,9 +258,7 @@
                                         <div class="column mcb-column one column_map ">
 
                                             <div class="google-map-wrapper no_border">
-                                                <div class="google-map" id="google-map-area-5a12a472dee9d" style="width:100%; height:400px">
-                                                    &nbsp;
-                                                </div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.857550761771!2d-87.85342475523059!3d42.55831755304878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88055fd859879e1d%3A0xca97d63fb5829970!2s3707%2080th%20St%2C%20Kenosha%2C%20WI%2053142!5e0!3m2!1sen!2sus!4v1600112304139!5m2!1sen!2sus" width="600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                             </div>
                                         </div>
                                     </div>
@@ -335,8 +328,9 @@
                 <div class="container">
                     <div class="column one">
                         <div class="copyright">
-                            &copy; <strong>Happy Nails</strong>, Kenosha  
+                            <strong class="text-light">&copy; Happy Nails Kenosha</strong> | <small class="text-grey">Professional Nail Technicans, Great Services, and  Happy Customers</small>
                         </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -372,124 +366,7 @@
     <script src="../../js/email.js"></script>
     <script src="./js/custom.js"></script>
 
-    <script>
-        function google_maps_5a12a472dee9d() {
-            var latlng = new google.maps.LatLng(40.6710072, -73.9374465);
-            var draggable = true;
-            var myOptions = {
-                zoom: 13,
-                center: latlng,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                styles: [{
-                    featureType: "all",
-                    elementType: "labels",
-                    stylers: [{
-                        visibility: "on"
-                    }]
-                }, {
-                    featureType: "administrative",
-                    elementType: "all",
-                    stylers: [{
-                        visibility: "off"
-                    }]
-                }, {
-                    featureType: "landscape",
-                    elementType: "all",
-                    stylers: [{
-                        color: "#fce8d4"
-                    }, {
-                        visibility: "simplified"
-                    }]
-                }, {
-                    featureType: "poi",
-                    elementType: "all",
-                    stylers: [{
-                        visibility: "off"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "all",
-                    stylers: [{
-                        visibility: "on"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "geometry",
-                    stylers: [{
-                        color: "#fce8d4"
-                    }, {
-                        lightness: "50"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "labels.text",
-                    stylers: [{
-                        visibility: "on"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "labels.text.fill",
-                    stylers: [{
-                        color: "#fce8d4"
-                    }, {
-                        lightness: "-60"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "labels.text.stroke",
-                    stylers: [{
-                        color: "#fce8d4"
-                    }, {
-                        lightness: "50"
-                    }]
-                }, {
-                    featureType: "road",
-                    elementType: "labels.icon",
-                    stylers: [{
-                        visibility: "off"
-                    }]
-                }, {
-                    featureType: "transit",
-                    elementType: "all",
-                    stylers: [{
-                        visibility: "simplified"
-                    }, {
-                        color: "#fce8d4"
-                    }, {
-                        lightness: "50"
-                    }]
-                }, {
-                    featureType: "transit.station",
-                    elementType: "all",
-                    stylers: [{
-                        visibility: "off"
-                    }]
-                }, {
-                    featureType: "water",
-                    elementType: "all",
-                    stylers: [{
-                        color: "#fce8d4"
-                    }, {
-                        lightness: "-10"
-                    }]
-                }],
-                draggable: draggable,
-                zoomControl: true,
-                mapTypeControl: false,
-                streetViewControl: false,
-                scrollwheel: false
-            };
-            var map = new google.maps.Map(document.getElementById("google-map-area-5a12a472dee9d"), myOptions);
-            var marker = new google.maps.Marker({
-                position: latlng,
-                icon: "images/map-marker.png",
-                map: map
-            });
-        }
-        jQuery(document).ready(function($) {
-            google_maps_5a12a472dee9d();
-        });
-    </script>
+
 
 </body>
 

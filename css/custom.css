@@ -79,3 +79,13 @@
   #myBtn:hover {
     background-color: #eaecf4;
 }
+
+
+
+
+
+/* Video */ 
+iframe {
+    width: 100% !important;
+    height: 300px;
+  }
