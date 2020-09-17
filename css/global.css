@@ -38,7 +38,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -16339,7 +16338,6 @@ body.mobile-side-slide {
 }
 .demo-switch .title {
 	margin: 0 2% 15px;
-	font-family: Lora;
 	font-style: italic;
 	color: #6c6d6d;
 }
@@ -19426,7 +19424,6 @@ a#back_to_top.button .button_icon {
 /* Code Hightlighter ----------------------------------------------------------------- */
 
 code, pre, q {
-	font-family: Consolas, monospace!important;
 	border: 1px solid #e8e8e8;
 	background: #fff;
 	-webkit-border-radius: 3px;
