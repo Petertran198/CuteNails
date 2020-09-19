@@ -1,6 +1,7 @@
 /* Pacifico(Logo) and Quicksand font */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap');
 
+
 *{
     font-family: 'Quicksand', sans-serif ;
 
@@ -25,6 +26,10 @@ p {
 -moz-font-smoothing: antialiased !important;
 text-rendering: optimizelegibility !important;
 letter-spacing: .03em;
+}
+
+.textwidget a:hover {
+    text-decoration: none;
 }
 
   /*Brand */
@@ -137,7 +142,6 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right, #f5f6fa , #81bee3 40%, #f5f6fa);
 }
-
 
 
 
