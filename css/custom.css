@@ -145,3 +145,27 @@ hr{
 
 
 
+
+/*hoverable menu */
+.hover-menu{
+    opacity: 85%;
+    border-radius: 2px;
+    border-radius: 0px 5px 5px 5px;
+    overflow: hidden;
+}
+
+li .hover-menu li:nth-of-type(odd){
+    background-color: #fddad1;
+}
+li .hover-menu li:nth-of-type(even){
+    background-color: #faa690;
+}
+
+
+.hover-menu li a:hover {
+    background-color: #f98b6f !important;
+    color: white;
+    background-size: 4px 50px;
+
+}
+
