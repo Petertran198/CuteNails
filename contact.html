@@ -128,7 +128,7 @@
                                             <div class="column_attr clearfix">
                                                 <h2>Send us a message.</h2>
                                                 <div id="contactWrapper">
-                                                    <form id="contactform">
+                                                    <form id="contactform" name="contact" method="POST" data-netlify="true">
                                                         <!-- One Second (1/2) Column -->
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
@@ -144,7 +144,7 @@
                                                             <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                         </div>
                                                         <div class="column one">
-                                                            <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
+                                                            <button type="submit" class="btn btn-block btn-primary">Send</button>
                                                         </div>
                                                     </form>
                                                 </div>
