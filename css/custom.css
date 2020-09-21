@@ -169,3 +169,10 @@ li .hover-menu li:nth-of-type(even){
 
 }
 
+
+
+.video{
+        margin: 0 auto;
+        border: 10px outset #f5f6fa;
+    
+}
